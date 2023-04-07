@@ -1,0 +1,11 @@
+@import 'mixins';
+@include mobile-grid;
+
+@font-face{
+    font-family: TestFont;
+    src: url(/Funtauna-m46LGBcb5y.otf)
+}
+
+h1{
+    font-family: TestFont;
+}
